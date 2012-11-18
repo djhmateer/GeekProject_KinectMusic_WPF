@@ -1,0 +1,18 @@
+﻿<Window x:Class="GeekProject_KinectMusic_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinect Music Controller (Project Edinburgh)" Height="370" Width="525">
+    <Grid x:Name="ProjectEdinburgh_KinectMusic" Margin="-16,-28,-24,-20" RenderTransformOrigin="0.5,0.5">
+        <Button Name="MIDITest" Content="MIDI Test" HorizontalAlignment="Left" Margin="34,43,0,0" VerticalAlignment="Top" Width="75" Click="MIDITest_Click"/>
+        <Canvas x:Name="StickPeopleCanvas" HorizontalAlignment="Left" Height="150" Margin="368,171,0,0" VerticalAlignment="Top" Width="150" Background="#FFA8A8A8"/>
+        <Button Name="KinectTest" Content="Kinect Test" HorizontalAlignment="Left" Margin="34,86,0,0" VerticalAlignment="Top" Width="75" Click="KinectTest_Click"/>
+        <Label Content="Right Hand" HorizontalAlignment="Left" Margin="22,294,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="rhz" Content="z:" HorizontalAlignment="Left" Margin="234,295,0,-1" VerticalAlignment="Top"/>
+        <Label x:Name="rhx" Content="x:" HorizontalAlignment="Left" Margin="102,294,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="rhy" Content="y:" HorizontalAlignment="Left" Margin="161,294,0,0" VerticalAlignment="Top"/>
+        <Label Content="Left Hand" HorizontalAlignment="Left" Margin="22,320,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="lhz" Content="z:" HorizontalAlignment="Left" Margin="234,321,0,0" VerticalAlignment="Top" RenderTransformOrigin="-7.089,1.522"/>
+        <Label x:Name="lhy" Content="y:" HorizontalAlignment="Left" Margin="161,321,0,0" VerticalAlignment="Top" RenderTransformOrigin="-7.089,1.522"/>
+
+    </Grid>
+</Window>
